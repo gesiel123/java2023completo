@@ -12,7 +12,7 @@ As configurações do link a seguir devem ser feitas no repositório GitHub **DO
 ##Parte 4 - Configuração do token no Eclipse
   Link de referência: "https://stackoverflow.com/questions/30421875/cant-connect-to-any-uri-error-while-commiting-code-from-eclipse-to-git-reposito"
 
-##Reprodução do passo 5;    
+Resumo dos passos do link acima;    
   In your Eclipse Editor, Right click on your project -> Team -> Remote -> Configure Push to Upstream
 
 Once the window opens, click "change..." button. Now you'll get a window called 'Select a URI'.
