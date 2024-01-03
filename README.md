@@ -21,3 +21,5 @@ As configurações do link a seguir devem ser feitas no repositório GitHub **DO
 Once the window opens, click "change..." button. Now you'll get a window called 'Select a URI'.
 
 In the authentication part, Enter your GitHub username and DO NOT Enter your GitHub password. For this, you need to create a 'personal access token' from Github. And ENTER the 'personal access token' instead of your GitHub password, in order to connect the repository.
+
+##Reprodução do passo 6;   
