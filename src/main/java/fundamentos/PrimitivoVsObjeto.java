@@ -2,7 +2,7 @@ package fundamentos;
 
 public class PrimitivoVsObjeto {
 	public static void main(String[] args) {
-		System.out.println(s); // gera erro de compilação pois a variáveis não está definida ainda.
+//		System.out.println(s); // gera erro de compilação pois a variáveis não está definida ainda.
 		String s = null;
 		System.out.println(s);
 		s = new String ("texto");
