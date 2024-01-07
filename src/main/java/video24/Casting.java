@@ -4,8 +4,14 @@ public class Casting {
 	public static void main(String[] args) {
 //		exemplo3();
 		
-//		exemplo4_catingDouble();
+		exemplo4_castingDouble();
 		
+//		exemplo5_castingInt();
+		
+			
+	}
+
+	private static void exemplo5_castingInt() {
 		double a;
 		int b;
 		
@@ -13,11 +19,9 @@ public class Casting {
 		b = (int)a;
 		
 		System.out.println(b);
-		
-			
 	}
 
-	private static void exemplo4_catingDouble() {
+	private static void exemplo4_castingDouble() {
 		int a, b;
 		
 		double resultado;
@@ -25,9 +29,10 @@ public class Casting {
 		a = 170; 
 		b = 100;
 		
-//		resultado = a / b; // divisão entre números inteiro resulta em um número inteiro truncado quando necessário
+//		resultado = a / b; // divisão entre números inteiro resulta em um número inteiro truncado e depois convertido para double
 		resultado = (double) a / b;
 		
+		System.out.println(a / b); // Resultado truncado para integer
 		System.out.println(resultado);
 	}
 
