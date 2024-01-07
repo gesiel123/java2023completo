@@ -4,15 +4,15 @@ public class Casting {
 	public static void main(String[] args) {
 //		exemplo3();
 		
-//		exemplo4_catingDouble();
+		exemplo4_catingDouble();
 		
-		double a;
-		int b;
-		
-		a = 5.0;
-		b = (int)a;
-		
-		System.out.println(b);
+//		double a;
+//		int b;
+//		
+//		a = 5.0;
+//		b = (int)a;
+//		
+//		System.out.println(b);
 		
 			
 	}
@@ -25,10 +25,12 @@ public class Casting {
 		a = 170; 
 		b = 100;
 		
-//		resultado = a / b; // divisão entre números inteiro resulta em um número inteiro truncado quando necessário
-		resultado = (double) a / b;
-		
+		resultado = a / b; // divisão entre números inteiro resulta em um número inteiro truncado quando necessário
 		System.out.println(resultado);
+		
+		resultado = (double) a / b;
+		System.out.println(resultado);
+		System.out.printf("conteúdo de resultado arredondado: %.0f", resultado); // printf arredonda resultado
 	}
 
 	private static void exemplo3() {
