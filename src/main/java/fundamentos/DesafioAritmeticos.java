@@ -23,8 +23,8 @@ public class DesafioAritmeticos {
 		double denominador_Fracao3 = Math.pow(10, 3);
 		double resultado_Fracao3 = numerador_Fracao3 / denominador_Fracao3;
 		double resultado_termo3 = (int)resultado_Fracao3;
-		int resultado_termo3_int = (int) resultado_Fracao3;
 		System.out.println(resultado_termo3);
+		int resultado_termo3_int = (int) resultado_Fracao3;
 		System.out.println(resultado_termo3_int);
 		
 	}
