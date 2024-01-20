@@ -18,8 +18,8 @@ public class desafioAritméticosGesiel3 {
 	
 	double resultado = superior / inferior;
 	
-	System.out.println("O resultado é " + resultado);
-
+	System.out.println("O resultado é " + resultado); 
+  
 	
    }
 }
